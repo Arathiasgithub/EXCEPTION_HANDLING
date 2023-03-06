@@ -1,0 +1,17 @@
+public class P2_Try_catch {
+
+	public static void main(String[] args) {
+		int arr[]=new int [5];
+		try {
+			arr[0]=5;
+			arr[2]=4;
+			System.out.println(arr[8]);
+		} catch (Exception e) 
+		{
+			System.out.println("the error is  "+e);
+		}
+		
+		
+	}
+
+}
