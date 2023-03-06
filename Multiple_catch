@@ -1,0 +1,27 @@
+public class P3_Try_catch {
+
+	public static void main(String[] args) {
+		
+		int arr[]=new int [5];
+		try 
+		{
+			int a=10;
+			int b=0;
+			System.out.println(a/b);
+			arr[0]=5;
+			arr[2]=4;
+			System.out.println(arr[8]);
+			
+		} catch (ArithmeticException e)
+		{
+			System.out.println("the error is"  +e);
+		}
+		catch (ArrayIndexOutOfBoundsException e)
+		{
+			System.out.println("the error is"  +e);
+		}
+		
+
+	}
+
+}
